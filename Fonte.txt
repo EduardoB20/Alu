@@ -1,4 +1,0 @@
-
-Cada vez mais pessoas querem estudar algoritmo e lógica de programação. Isso porque esses são temas de áreas crescentes que abrem um leque de possibilidades para aqueles que sabem o que são e como funcionam. Os computadores não conseguem entender comandos subjetivos, por isso, o algoritmo e a lógica de programação são fundamentais.
-Enquanto a lógica de programação é a estruturação de conceitos e regras que orientam a execução do algoritmo, o algoritmo é a receita, ou seja, os comandos em um passo a passo claro e lógico que conduzem as ações para a resolução de um problema ou para atingir determinado objetivo.
-https://blog.casadodesenvolvedor.com.br/logica-de-programacao/#:~:text=Enquanto%20a%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o,ou%20para%20atingir%20determinado%20objetivo.
