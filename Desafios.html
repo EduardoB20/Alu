@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoAula</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Oswald", sans-serif;
+            background-color:#D6D6D6;
+            line-height: 1.5;
+        }
+
+    .header {
+      background-color: #7ab5f9;
+      border: 3px solid;
+      padding: 20px;
+      text-align: center;
+    }
+
+        .Progamacao {
+            font-family: "Roboto Mono", monospace;
+            font-size: 30px;
+            margin: 0;
+        }
+
+        .Aprenda {
+            font-size: 20px;
+            margin: 5px;
+        }
+
+    nav.bt {
+      background-color: #7ab5f9;
+      border: 1px solid;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+    nav a {
+      text-decoration: none;
+      color: #096ee5;
+      font-size: 20px;
+      font-family: "Helvetica", sans-serif;
+      background-color:#ECECEC;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background-color 0.5s;
+    }
+
+    nav a:hover {
+      background-color: #096ee5;
+      border: 1px solid;
+      color:white ;
+    }
+    .aula1co {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: #D6D6D6;
+        margin: 10px auto;
+        max-width: 1300px;
+        }
+    .aula{
+        background-color: #2f86ec;
+        border-radius: 20px;
+        padding: 18px;
+        text-align: center;
+        color: #1b325f;
+        width: 290px;
+        justify-content: space-between;
+        align-items: center;
+        }
+                .aula img {
+            max-width: 100%;
+            height: 200px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+            .aula h3 {
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color:#1b325f;
+        }
+                .aula p.descricao {
+            font-size: 17px;
+            color: white;
+            margin-bottom: 17px;
+        }
+                .aula a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: "Helvetica", sans-serif;
+            background-color: #7593af;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.8s;
+         }
+                .aula a:hover{
+            background-color: #476f95;
+            border: 1px solid;
+         }
+               .aul {
+            background-color: #2f86ec;
+            color: white;
+
+        }
+            .aul:hover{
+            background-color: #096ee5;
+        }
+        .dardo {
+            width: 80%;
+        }
+        .center {
+            width: 90%;
+        }
+        .programacao{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1 class="Progamacao">DESAFIOS</h1>
+            <h2 class="Aprenda">Encontre Desafios para Testar suas Habilidades!</h2>
+        </div>
+
+        <nav class="bt">
+            <ul>            
+                <li><a href="index.html">Home</a></li>         
+                <li><a href="video.html">Video Aulas</a></li>
+                <li><a href="fontes.html">Sobre</a></li>
+                <li><a href="" class="aul">Desafios</a></li>
+            </ul> </nav>
+        <div class="container">
+         <section class="aula1co">
+            <div class="aula">
+                <img src="dardo.jpg" alt="Imagem representativa de Lógica de Programação" class="dardo">
+                <h3>Desafio1</h3>
+                <p class="descricao">
+                    Escreva um algoritmo que sirva para trocar o pneu de um carro, utilize o exemplo do chuveiro Mostrado na pagina Home
+                </p>
+                <a href="index.html"> Encontre o Exemplo </a>
+            </div>
+            <div class="aula">
+                <img src="Persi.jpg" alt="Imagem representativa de Algoritmos" class="center">
+                <h3>Desafio2</h3>
+                <p class="descricao">
+                    Assista o video sobre logica de programçao, e utilize a plataforma VisualG para criar um código
+                    que some 2 numeros
+                </p>
+            </div>
+            <div class="aula">
+                <img src="Programacao.jpg" alt="Imagem representativa de Linguagem de Programacao" class="progamacao">
+                <h3>Desafio3</h3>
+                <p class="descricao">
+                    Assista o video sobre logica de programçao, e utilize a plataforma VisualG para criar um código
+                    que vai calcular a média de 4 notas.
+                </p>
+               <a href="https://www.youtube.com/watch?v=jBIPvXHRYpg">Assistir Aula</a>
+            </div>
+         </section>
+    </div>
+</body>
+</html>
